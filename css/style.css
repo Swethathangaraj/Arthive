@@ -83,9 +83,6 @@ p {
 	margin: 0 0 15px 0;
 }
 
-img {
-	max-width: 100%;
-}
 
 input:focus,
 select:focus,
@@ -3059,5 +3056,16 @@ ol {
 	}
 	.footer__top__text h2 {
 		font-size: 32px;
+	}
+}
+
+.mainLogo{
+	width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.mainLogo{
+		width: 35%;
 	}
 }
